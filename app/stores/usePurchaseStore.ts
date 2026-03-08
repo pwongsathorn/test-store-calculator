@@ -1,8 +1,7 @@
 import { defineStore } from 'pinia'
-import { computed, ref } from 'vue'
-import { cloneDeep } from 'lodash'
+import { reactive } from 'vue'
 
-import type { ItemData, CartItem, OrderSummary, CalculatePayload } from '~/types/data'
+import type { OrderSummary } from '~/types/data'
 
 export const usePurchaseStore = defineStore('purchase', () => {
   // --- State ---

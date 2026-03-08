@@ -1,0 +1,2 @@
+declare
+;('vuetify/styles')

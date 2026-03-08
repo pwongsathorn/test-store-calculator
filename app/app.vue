@@ -1,4 +1,6 @@
 <script lang="ts" setup>
+import { useSessionStore } from '~/stores/useSessionStore'
+import { usePurchaseStore } from '~/stores/usePurchaseStore'
 const sessionStore = useSessionStore()
 if (!sessionStore.shop_session.session_id) {
   sessionStore.createSession()

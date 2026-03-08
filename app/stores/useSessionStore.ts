@@ -1,6 +1,6 @@
 import { v4 as uuidv4 } from 'uuid'
 import { defineStore } from 'pinia'
-
+import { reactive } from 'vue'
 export type ShopSession = {
   session_id: string
   unix_date?: number

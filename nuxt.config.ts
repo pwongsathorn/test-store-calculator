@@ -2,7 +2,7 @@
 export default defineNuxtConfig({
   compatibilityDate: '2025-12-21',
   devtools: { enabled: true },
-  modules: ['@nuxt/eslint', 'vuetify-nuxt-module', '@pinia/nuxt'],
+  modules: ['@nuxt/eslint', 'vuetify-nuxt-module', '@pinia/nuxt', '@nuxt/test-utils/module'],
   runtimeConfig: {
     // apiSecret: '123',
     public: {
